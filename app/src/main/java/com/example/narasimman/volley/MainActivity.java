@@ -25,7 +25,9 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity {
-
+/*
+new commit
+ */
 String url="https://dinesh1234.000webhostapp.com/image.png";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
