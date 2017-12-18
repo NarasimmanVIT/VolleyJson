@@ -114,7 +114,7 @@ String url="https://dinesh1234.000webhostapp.com/image.png";
             }
         }, 0, 0, ImageView.ScaleType.CENTER_CROP, null, new Response.ErrorListener() {
             @Override
-            public void onErrorResponse(VolleyError error) {
+            public void onErrorResponse(VolleyError  error) {
 
             }
         });
@@ -127,5 +127,8 @@ String url="https://dinesh1234.000webhostapp.com/image.png";
             5th parmater-scaletype of the image
             6th-error listner
              */
+         /*
+         merging the branches
+          */
         MyApplication.getmInstance(getApplicationContext()).addRequest(imageRequest);
     }}
